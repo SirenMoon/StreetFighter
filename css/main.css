@@ -3,14 +3,15 @@ background-color: black;
 }
  
 .main {
-background-color: white;
-margin-top: 110px;
+background-image:url('http://twistedsifter.files.wordpress.com/2013/05/animated-gifs-of-fighting-game-backgrounds-27.gif');
+background-size: 95%;
+margin-top: 50px;
 min-width: 1200px;
 padding-left: 100px;
 height: 500px;
 }
  
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
 background-repeat: no-repeat;
 }
 .hadouken {
@@ -28,12 +29,12 @@ left: -212px;
 float: left;
 }
  
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
 width: 659px;
 height: 494px;
 }
  
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 display: none;
 }
  
@@ -48,3 +49,31 @@ background-image: url('../images/ryu-standing-still.png');
 .ryu-throwing {
 background-image: url('../images/ryu-throwing-hadouken.png');
 }
+.ryu-cool {
+	background-image:url('../images/ryu-cool.gif');
+}
+
+.logo {
+	text-align:left;
+	position:relative;
+}
+ 
+ .play{
+ text-align: right;
+ margin-right:50px;
+  padding:10px;
+  color:orange;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 30px;
+  margin-top: -200px;
+  clear:left;
+  	position:relative;
+  }
+
+.play  h1 {
+  color:red;
+  font-weight: bold;
+  font-size: 2em;
+ }
